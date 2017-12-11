@@ -59,8 +59,11 @@ html {
   text-decoration: none;
 }
 
-.masthead a:hover {
+.masthead a:hover,
+.masthead a:focus {
   background-color: rgba(180, 220, 255, .3);
+  color: #000;
+  outline-color: #fff;
 }
 
 .techniques {
